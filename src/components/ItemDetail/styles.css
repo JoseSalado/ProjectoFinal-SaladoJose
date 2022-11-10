@@ -1,0 +1,38 @@
+.item-detail{
+    display: flex;
+    width: 100vw;
+    margin-top: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.item-detail-character{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    gap: 15px;
+    color:black;
+    font-size: 24px;
+    margin-top: 25px;
+
+}
+.item-detail-button{
+    padding: 0 10px;
+    border-radius: 10px;
+    border-color:rgb(148, 202, 148) ;
+    margin: 5px;
+    background-color: rgb(189, 186, 186);
+    font-size: 34px;
+    margin-top: 10rem;
+}
+.item-detail-button:hover , .item-detail-button:focus{
+    background: rgb(240, 157, 131);
+  color: #FFF;
+  transition: background-color 0.5s ease-out;
+  outline: 0;
+}

@@ -1,0 +1,21 @@
+.card-detail{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+    border: solid 2px rgb(174, 247, 171);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    
+    
+}
+.card-detail button{
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px rgb(95, 141, 93) ;
+    background-color:#fff;
+
+}
