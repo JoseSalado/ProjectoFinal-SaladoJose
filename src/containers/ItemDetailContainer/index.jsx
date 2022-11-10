@@ -13,7 +13,7 @@ const ItemDetailContainer = () => {
         const getCharacterDetail = async () => {
             const response = await fetch(`https://rickandmortyapi.com/api/character/${id}`)
             const character = await response.json();
-            console.log(character)
+          
             setCharacter(character)
         }
 
