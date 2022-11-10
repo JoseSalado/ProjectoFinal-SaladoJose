@@ -1,0 +1,7 @@
+.title-item-container{
+    display: flex;
+    flex-direction: colum;
+    justify-content: center;
+    font-size: 34px;
+    color: rgb(129, 224, 149);
+}
