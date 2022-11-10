@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Lobster&display=swap');
+ul{
+    display: flex;
+    margin: 1rem;
+    background-color: rgb(122, 248, 149);
+    list-style-type: none;
+   justify-content: flex-start;
+    align-items: center;
+   
+   
+}
+li{
+    margin: 1rem;
+}
+a{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Lobster";
+    
+}
