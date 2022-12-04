@@ -10,7 +10,7 @@ const NavBar = ()=>{
          <li><Link to="/">Home</Link></li>
          <li><Link to="/category/human">Humano</Link></li>
          <li><Link to="category/alien">Alien</Link></li>
-         <li><Link to="category/humanoid">Humanoide</Link></li>
+         
          
          <CartWidget/>
     </ul>

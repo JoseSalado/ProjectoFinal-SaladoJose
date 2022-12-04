@@ -1,5 +1,5 @@
 import './App.css';
-import ThemeProvider from './contexts/Theme';
+
 import Router from './routes';
 
 function App() {
@@ -8,9 +8,9 @@ function App() {
     
 
     <div> 
-     <ThemeProvider>
+    
      <Router/>
-     </ThemeProvider>
+     
     </div>     
     
     

@@ -1,15 +1,28 @@
 import React from 'react';
+import { useContext } from 'react';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Cart } from '../../contexts/Cart';
 import ItemCount from '../ItemCount';
 import './styles.css';
 
 const ItemDetail = ({character}) => {
  
+  const {addProduct} = useContext(Cart);
   const [quantityItemCount,setQuantityItemcount] = useState(0);
+
+  const navigate = useNavigate();
+
   const confirmPurchase = (quantity)=>{
     console.log(quantity)
+    addProduct({...character, quantity});
     setQuantityItemcount (quantity);
 
+  }
+
+  const handelNavigate = ()=>{
+    navigate('/cart')
+    
   }
 
   console.log(character);
@@ -20,10 +33,10 @@ const ItemDetail = ({character}) => {
       <h2>Nombre: {character.name}</h2>
       <h2>Especie: {character.species}</h2>
       <h3>Precio: $ {10}</h3>
-      <button className='item-detail-button'>Comprar</button>      
+         
       </div>
       {quantityItemCount ? (
-        <button>go caRRITO</button>
+        <button onClick={handelNavigate}>go caRRITO</button>
       ):(
         <ItemCount
       onAdd={confirmPurchase}
