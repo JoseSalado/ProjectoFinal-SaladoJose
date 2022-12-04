@@ -9,24 +9,13 @@ export default function ItemListContainer ({greeting}) {
 
     const [products, setProducts] = useState([])
 
-    const {categoryId} = useParams()
+    const {categoryId} = useParams()  
 
    
-
-   
-
     useEffect(()=> {
         ( async ()=> {
-            try {
-               
-                let response;
-               /* if (categoryId) {
-                    response = await fetch(`https://rickandmortyapi.com/api/character/?species=${categoryId}`);
-                } else {
-                    response = await fetch(`https://rickandmortyapi.com/api/character`);
-                }*/
-              
-                
+            try {             
+                         
               let q ;
 
               if (categoryId){
@@ -34,21 +23,18 @@ export default function ItemListContainer ({greeting}) {
               }else{
                 q = query(collection(db, "products"));
               }
-
              
-
              const querySnapshot = await getDocs(q);
 
              const productosfirebase = [];
 
              querySnapshot.forEach((doc) => {
-             // doc.data() is never undefined for query doc snapshots
+             
              console.log(doc.id, " => ", doc.data());
               productosfirebase.push({...doc.data(), id:doc.id})
             });
-
          
-               // const data = await response.json();
+               
                 
                 setProducts(productosfirebase)
                

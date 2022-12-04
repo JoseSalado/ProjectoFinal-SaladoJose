@@ -32,7 +32,7 @@ const ItemDetail = ({character}) => {
       <div className='item-detail-character'>
       <h2>Nombre: {character.name}</h2>
       <h2>Especie: {character.species}</h2>
-      <h3>Precio: $ {10}</h3>
+      <h3>Precio: $ {character.precio}</h3>
          
       </div>
       {quantityItemCount ? (
