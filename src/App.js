@@ -1,10 +1,19 @@
 import './App.css';
+import ThemeProvider from './contexts/Theme';
 import Router from './routes';
 
 function App() {
 
   return (
-    <Router/>
+    
+
+    <div> 
+     <ThemeProvider>
+     <Router/>
+     </ThemeProvider>
+    </div>     
+    
+    
   );
 }
 

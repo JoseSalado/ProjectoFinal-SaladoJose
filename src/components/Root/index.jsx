@@ -7,7 +7,7 @@ const Root = () => {
   return (
     <>
         <NavBar/>
-        <h2 className='title-item-container'>Rick y Morty NFT`s</h2>
+        <h2 className='title-item-container'>Rick and Morty NFT`s</h2>
         <Outlet/>
        
     </>

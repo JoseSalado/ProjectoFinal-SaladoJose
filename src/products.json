@@ -1,0 +1,219 @@
+[
+    
+      {
+        "id": 1,
+        "name": "Rick Sanchez",        
+        "species": "human",            
+         "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+         "quenty": 20,
+         "precio": 250
+        
+      },
+      {
+        "id": 2,
+        "name": "Morty Smith",        
+        "species": "human",       
+       
+        "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+        "quenty": 20,
+         "precio": 250
+        
+        
+      },
+      {
+        "id": 3,
+        "name": "Summer Smith",       
+        "species": "human",       
+       
+        "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+        "quenty": 23,
+         "precio": 250
+       
+        
+      },
+      {
+        "id": 4,
+        "name": "Beth Smith",       
+        "species": "human",       
+        
+        "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+        "quenty": 15,
+         "precio": 350
+       
+      },
+      {
+        "id": 5,
+        "name": "Jerry Smith",        
+        "species": "human",       
+        "gender": "Male",        
+        "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+        "quenty": 20,
+         "precio": 250
+        
+        
+      },
+      {
+        "id": 6,
+        "name": "Abadango Cluster Princess",        
+        "species": "alien",       
+       
+        "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
+        "quenty": 15,
+         "precio": 350
+        
+       
+      },
+      {
+        "id": 7,
+        "name": "Abradolf Lincler",       
+        "species": "human",       
+        "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
+        "quenty": 10,
+         "precio": 500
+        
+      },
+      {
+        "id": 8,
+        "name": "Adjudicator Rick",        
+        "species": "human",       
+        
+        "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
+        "quenty": 17,
+         "precio": 300
+        
+        
+        
+      },
+      {
+        "id": 9,
+        "name": "Agency Director",        
+        "species": "human",       
+        
+        "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
+        "quenty": 10,
+         "precio": 450
+        
+        
+      },
+      {
+        "id": 10,
+        "name": "Alan Rails",        
+        "species": "human",        
+        
+        "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
+        "quenty": 16,
+         "precio": 250
+        
+        
+      },
+      {
+        "id": 11,
+        "name": "Albert Einstein",        
+        "species": "human",       
+        
+        "image": "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
+        "quenty": 15,
+         "precio": 350
+        
+        
+      },
+      {
+        "id": 12,
+        "name": "Alexander",        
+        "species": "human",        
+       
+        "image": "https://rickandmortyapi.com/api/character/avatar/12.jpeg",
+        "quenty": 20,
+         "precio": 250
+       
+        
+      },
+      {
+        "id": 13,
+        "name": "Alien Googah",       
+        "species": "alien",       
+       
+        "image": "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
+        "quenty": 2,
+         "precio": 500
+       
+       
+      },
+      {
+        "id": 14,
+        "name": "Alien Morty",        
+        "species": "alien",        
+       
+        "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
+        "quenty": 25,
+         "precio": 350
+        
+       
+      },
+      {
+        "id": 15,
+        "name": "Alien Rick",        
+        "species": "alien",       
+       
+        "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
+        "quenty": 20,
+         "precio": 200
+        
+       
+      },
+      {
+        "id": 16,
+        "name": "Amish Cyborg",        
+        "species": "alien",       
+       
+        "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
+        "quenty": 15,
+         "precio": 350
+        
+        
+      },
+      {
+        "id": 17,
+        "name": "Annie",        
+        "species": "human",        
+       
+        "image": "https://rickandmortyapi.com/api/character/avatar/17.jpeg",
+        "quenty": 25,
+         "precio": 300
+        
+       
+      },
+      {
+        "id": 18,
+        "name": "Antenna Morty",        
+        "species": "human",       
+       
+        "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
+        "quenty": 3,
+         "precio": 450
+        
+       
+      },
+      {
+        "id": 19,
+        "name": "Antenna Rick",        
+        "species": "human",       
+        
+        "image": "https://rickandmortyapi.com/api/character/avatar/19.jpeg",
+        "quenty": 21,
+         "precio": 250
+       
+        
+      },
+      {
+        "id": 20,
+        "name": "Ants in my Eyes Johnson",        
+        "species": "human",       
+        "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
+        "quenty": 39,
+         "precio": 350
+       
+       
+      }
+    
+    ]

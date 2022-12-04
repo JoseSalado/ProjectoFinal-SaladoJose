@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 .title-item-container{
     display: flex;
     flex-direction: colum;
     justify-content: center;
-    font-size: 34px;
+    font-size: 46px;
     color: rgb(129, 224, 149);
+    font-family: "Shadows Into Light";
 }
