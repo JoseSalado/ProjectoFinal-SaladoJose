@@ -1,13 +1,13 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import './styles.css'
-//card
+
 const Item = ({product}) => {
 
 
     const navigate = useNavigate()
     const navigateDetail = ()=>{
-        //navegar hacia el detalle del producto
+      
         navigate (`/detail/${product.id}`)
     }
 

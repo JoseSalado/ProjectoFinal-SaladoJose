@@ -13,7 +13,7 @@ const ItemDetailContainer = () => {
     useEffect(() => {
 
         const getCharacterDetail = async () => {
-            //const response = await fetch(`https://rickandmortyapi.com/api/character/${id}`)
+          
             
 
           const docRef = doc(db, "products", id);
@@ -23,12 +23,10 @@ const ItemDetailContainer = () => {
            console.log("Document data:", docSnap.data());
            setCharacter({...docSnap.data(), id: docSnap.id})
            } else {
-          // doc.data() will be undefined in this case
+       
           console.log("No such document!");
           }
-           // const character = await response.json();
-          
-           // setCharacter(character)
+           
         }
 
         getCharacterDetail()

@@ -36,12 +36,12 @@ const ItemDetail = ({character}) => {
          
       </div>
       {quantityItemCount ? (
-        <button onClick={handelNavigate}>go caRRITO</button>
+        <button onClick={handelNavigate}>ir carrito</button>
       ):(
         <ItemCount
       onAdd={confirmPurchase}
       initial = {1}
-      stock = {20}
+      stock = {character.quantity}
       />)}
      
     </div>

@@ -28,12 +28,12 @@ const CartProvider = ({children}) => {
         
 
     }
-     //isInACrt
+    
     const isInCArt = (id)=>{
         return products.some(product=> product.id === id)
     }
 
-    //Eliminar producto
+   
 
     const removeProduct = (id)=>{
 
@@ -41,13 +41,13 @@ const CartProvider = ({children}) => {
         setProducts(productosCart)
     }
 
-    //Vaciar carrito
+ 
 
     const emptyCart = ()=>{
         setProducts([])
     }
 
-    //Calcular total
+   
 
     const calculeTotal = ()=>{
 
@@ -60,7 +60,7 @@ const CartProvider = ({children}) => {
         return total;
     } 
 
-    //calclulo del total de items del carrito, puede ser con reduce
+    
 
     const totalItemsCart = ()=>{
 
